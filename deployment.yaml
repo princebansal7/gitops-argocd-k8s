@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: npx-app-container
-          image: princebansal7/princebansal7/npx-app:17e7a81
+          image: princebansal7/princebansal7/npx-app:6969690
           ports:
             - containerPort: 3000
 

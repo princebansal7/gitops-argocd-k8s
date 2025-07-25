@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: npx-app-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: npx-app
+  template:
+    metadata:
+      labels:
+        app: npx-app
+    spec:
+      containers:
+        - name: npx-app-container
+          image: princebansal7/princebansal7/npx-app:17e7a81
+          ports:
+            - containerPort: 3000
+

@@ -1,4 +1,4 @@
-# GitOps with ArgoCD repository
+# GitOps with ArgoCD
 
 - This repository is for `argocd` manifests reference => add repo specific folders like `npx-app-manifests` and add manifests there.
 - To install `argocd` on k8s cluster

@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: next-app-container
-          image: princebansal7/next-app-gitops:03e3202
+          image: princebansal7/next-app-gitops:b2a2c3d
           ports:
             - containerPort: 3000
